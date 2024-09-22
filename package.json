@@ -1,6 +1,6 @@
 {
   "name": "@zhabchyk/modalhrnet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A modal react component for HRNet project",
   "author": "tetyanachouteau",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "microbundle-crl --no-compress --format modern,cjs --css inline",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -27,7 +27,7 @@
     "react": "^18.3.1"
   },
   "devDependencies": {
-    "microbundle-crl": "^0.13.10",
+    "microbundle-crl": "^0.13.11",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
