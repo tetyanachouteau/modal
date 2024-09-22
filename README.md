@@ -5,7 +5,7 @@ Library to add modal to the HRNet project
 ## Install
 
 ```bash
-npm install --save @zhabchyk/modal
+npm install --save @zhabchyk/modalhrnet
 ```
 
 ## usage 
