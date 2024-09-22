@@ -1,7 +1,7 @@
 {
-  "name": "modal",
-  "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "name": "@zhabchyk/modalhrnet",
+  "version": "1.0.2",
+  "description": "A modal react component for HRNet project",
   "author": "tetyanachouteau",
   "license": "MIT",
   "repository": "tetyanachouteau/modal",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.3.1"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -43,8 +43,8 @@
     "gh-pages": "^2.2.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "^3.4.1"
   },
   "files": [
